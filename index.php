@@ -16,7 +16,7 @@
                 {
                     echo'
                         <div> Imie: '.$row["name"].'Nazwisko: '.$row["last_name"].'<br></div>
-                    '
+                    ';
                 }
             }
             if($result=$db->query($second))
@@ -25,7 +25,7 @@
                 {
                     echo'
                         <div> Pytanie: '.$row["content"].'<br></div>
-                    '  
+                    ';  
                 }
             }
         ?>
